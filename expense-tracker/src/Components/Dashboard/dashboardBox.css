@@ -1,0 +1,20 @@
+.dashboardBox{
+    display: flex;
+    width: 19rem;   
+    height: 8rem;
+    margin: 2rem 4rem;
+    padding: 1rem;
+    background-color: white;
+    z-index: 9;
+    flex-direction: column;
+    transition: all .6s ease;
+    border-radius: 10px;
+}
+.dashboardBox:hover{
+    transform: translateY(-15px);
+}
+.dashboardBox > p{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}

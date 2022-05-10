@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+.dashboard__boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #007CC7;
+}
+.dashboard__wave__svg{
+    display: inline-block;
+    position: absolute;
+    top: -35px;
+    right:0;
+    left: 0;
+    z-index: -1;
+  }
+  .dashboard__container {
+    display: inline-block;
+    position: relative;
+    background-color: #007CC7;
+    width: 100%;
+    z-index: 0;
+    padding-bottom: 5rem;
+    vertical-align: middle;
+    overflow: hidden;
+  }
+.dashboard__heading{
+    font-family: dosis;
+    font-size: 4rem;
+    font-weight: 500;
+    margin-left: 6rem;
+    color: white;
+}
+@media screen and (max-width:760px){
+    .dashboard__wave__svg{
+        height: 20rem;  
+    }
+    .dashboard__heading{
+        margin: auto 1rem;
+        font-size: 3rem;
+        margin-top: 2rem;
+    }
+    .dashboard__boxes{
+        margin-top:-7rem
+    }
+    .dashboard__container{
+        padding-bottom: 12rem;
+    }
+}

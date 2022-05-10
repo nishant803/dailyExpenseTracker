@@ -1,0 +1,122 @@
+.register{
+    background-color: #f8f8f8;
+    padding: 3.5rem 0px;
+}
+.login{
+    background-color: #f8f8f8;
+    padding: 8rem 0;
+}
+.signup{
+    margin-bottom: 1rem;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.container{
+    width: 60%;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 15px 16.83px 0.17px rgb(0 0 0 / 5%);
+    margin: 0 auto;
+}
+.signup-content{
+    padding: 30px 0;
+    display: flex;
+}
+.signup-form{
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-left: 34px;
+    width: 50%;
+    overflow: hidden;
+}
+.signup-image{
+    margin-top: 45px;
+    margin: 0 55px;
+    width: 50%;
+    overflow: hidden;
+}
+.form-title{
+    margin-bottom: 33px;
+    font-weight: 700;
+    font-size: 36px;
+}
+figure{
+    margin-bottom: 50px;
+    text-align: center;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+.signup-image-link{
+    font-size: 14px;
+    color: #222;
+    display: block;
+    text-align: center;
+}
+.register-form{
+    width: 100%;
+}
+.form-group{
+    position: relative;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.form-submit{
+    display: inline-block;
+    background: #6dabe4;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    border-radius: 10px;
+    width: auto;
+    padding: 15px 39px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.register__label{
+    position: absolute;
+    left: 0;
+    top: 10%;
+}
+.error__message{
+    color: red;
+    font-weight: 600;
+    height: 5px;
+}
+.register__input{
+    width: 100%;
+    display: block;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #999;
+    padding: 6px 30px;
+    font-family: Poppins;
+    box-sizing: border-box;
+}
+@media screen and (max-width:760px) {
+    .signup-content{
+        flex-direction: column;
+    }
+    .container{
+        width: 80%;
+    }
+    .signup-form{
+        padding: 0;
+        margin: auto;
+    }
+    input{
+        width: 10rem;
+    }
+    .signup-image{
+        width: 100%;
+        margin: auto;
+    }
+}
